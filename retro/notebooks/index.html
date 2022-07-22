@@ -7,7 +7,7 @@
     <link
       id="jupyter-lite-main"
       rel="preload"
-      href="../build/bundle.js"
+      href="../../build/retro/bundle.js?_=e57a31b"
       main="index"
       as="script"
     />
@@ -19,14 +19,18 @@
       {}
     </script>
     <script>
-      (async function() {
+      (async function () {
         const { pathname, origin, search, hash } = window.location;
         if (pathname.match(/(index.html|\/)$/) == null) {
           window.location.href = `${origin}${pathname}/${search}${hash}`;
           return;
         }
-        await import('../../config-utils.js');
+
+        await import(
+          '../../config-utils.js?_=e57a31b'
+        );
       })();
     </script>
   </head>
+  <body data-retro="notebooks"></body>
 </html>
