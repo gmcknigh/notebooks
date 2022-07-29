@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-07-29T05:52:50.033187Z",
+      "created": "2022-07-29T05:52:30.104697Z",
       "format": null,
-      "last_modified": "2022-07-29T05:51:54.885189Z",
+      "last_modified": "2022-07-29T05:51:12.335333Z",
       "mimetype": null,
       "name": "blak",
       "path": "projects/blak",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-07-29T05:52:50.033187Z",
+      "created": "2022-07-29T05:52:30.104697Z",
       "format": null,
-      "last_modified": "2022-07-29T05:51:54.889189Z",
+      "last_modified": "2022-07-29T05:51:12.339333Z",
       "mimetype": null,
       "name": "heart_failure_knn.ipynb",
       "path": "projects/heart_failure_knn.ipynb",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-07-29T05:52:50.033187Z",
+  "created": "2022-07-29T05:52:30.104697Z",
   "format": "json",
-  "last_modified": "2022-07-29T05:52:50.033187Z",
+  "last_modified": "2022-07-29T05:52:30.104697Z",
   "mimetype": null,
   "name": "projects",
   "path": "projects",
