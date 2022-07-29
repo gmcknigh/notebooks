@@ -2,21 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-07-29T05:53:20.946063Z",
+      "created": "2022-07-29T06:01:11.767624Z",
       "format": null,
-      "last_modified": "2022-07-29T05:52:12.701233Z",
-      "mimetype": null,
-      "name": "blak",
-      "path": "projects/blak",
-      "size": 1,
-      "type": "file",
-      "writable": true
-    },
-    {
-      "content": null,
-      "created": "2022-07-29T05:53:20.946063Z",
-      "format": null,
-      "last_modified": "2022-07-29T05:52:12.701233Z",
+      "last_modified": "2022-07-29T05:59:57.155890Z",
       "mimetype": null,
       "name": "heart_failure_knn.ipynb",
       "path": "projects/heart_failure_knn.ipynb",
@@ -25,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-07-29T05:53:20.946063Z",
+  "created": "2022-07-29T06:01:11.767624Z",
   "format": "json",
-  "last_modified": "2022-07-29T05:53:20.946063Z",
+  "last_modified": "2022-07-29T06:01:11.767624Z",
   "mimetype": null,
   "name": "projects",
   "path": "projects",
