@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-07-29T05:27:41.387787Z",
+      "created": "2022-07-29T05:31:19.845904Z",
       "format": null,
-      "last_modified": "2022-07-29T05:26:42.219408Z",
+      "last_modified": "2022-07-29T05:30:23.701609Z",
       "mimetype": "text/csv",
       "name": "heartdata.csv",
       "path": "Griffin's Projects/heartdata.csv",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-07-29T05:27:41.387787Z",
+      "created": "2022-07-29T05:31:19.845904Z",
       "format": null,
-      "last_modified": "2022-07-29T05:26:42.219408Z",
+      "last_modified": "2022-07-29T05:30:23.701609Z",
       "mimetype": null,
       "name": "heart_failure_knn.ipynb",
       "path": "Griffin's Projects/heart_failure_knn.ipynb",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-07-29T05:27:41.387787Z",
+  "created": "2022-07-29T05:31:19.845904Z",
   "format": "json",
-  "last_modified": "2022-07-29T05:27:41.387787Z",
+  "last_modified": "2022-07-29T05:31:19.845904Z",
   "mimetype": null,
   "name": "Griffin's Projects",
   "path": "Griffin's Projects",
