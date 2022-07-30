@@ -2,20 +2,20 @@
   "content": [
     {
       "content": null,
-      "created": "2022-07-30T18:14:51.418577Z",
+      "created": "2022-07-30T18:15:59.276800Z",
       "format": null,
-      "last_modified": "2022-07-30T18:13:29.770335Z",
+      "last_modified": "2022-07-30T18:15:03.552731Z",
       "mimetype": null,
-      "name": "blank",
-      "path": "projects/blank",
-      "size": 1,
-      "type": "file",
+      "name": "heart_failure_knn.ipynb",
+      "path": "projects/heart_failure_knn.ipynb",
+      "size": 218479,
+      "type": "notebook",
       "writable": true
     }
   ],
-  "created": "2022-07-30T18:14:51.418577Z",
+  "created": "2022-07-30T18:15:59.276800Z",
   "format": "json",
-  "last_modified": "2022-07-30T18:14:51.418577Z",
+  "last_modified": "2022-07-30T18:15:59.276800Z",
   "mimetype": null,
   "name": "projects",
   "path": "projects",
