@@ -2,21 +2,21 @@
   "content": [
     {
       "content": null,
-      "created": "2022-07-30T18:15:47.845542Z",
+      "created": "2022-07-31T04:17:53.897897Z",
       "format": null,
-      "last_modified": "2022-07-30T18:14:48.501076Z",
+      "last_modified": "2022-07-31T04:16:53.437762Z",
       "mimetype": null,
-      "name": "blank",
-      "path": "projects/blank",
-      "size": 1,
-      "type": "file",
+      "name": "Titanic_Project.ipynb",
+      "path": "projects/Titanic_Project.ipynb",
+      "size": 189856,
+      "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-07-30T18:15:47.845542Z",
+      "created": "2022-07-31T04:17:53.897897Z",
       "format": null,
-      "last_modified": "2022-07-30T18:14:48.501076Z",
+      "last_modified": "2022-07-31T04:16:53.441762Z",
       "mimetype": null,
       "name": "heart_failure_knn.ipynb",
       "path": "projects/heart_failure_knn.ipynb",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-07-30T18:15:47.845542Z",
+  "created": "2022-07-31T04:17:53.897897Z",
   "format": "json",
-  "last_modified": "2022-07-30T18:15:47.845542Z",
+  "last_modified": "2022-07-31T04:17:53.897897Z",
   "mimetype": null,
   "name": "projects",
   "path": "projects",
