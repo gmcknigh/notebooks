@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-08-09T06:28:39.576148Z",
+      "created": "2022-08-09T20:27:04.553303Z",
       "format": null,
-      "last_modified": "2022-08-09T06:28:39.576148Z",
+      "last_modified": "2022-08-09T20:27:04.553303Z",
       "mimetype": null,
       "name": "Titanic Death Predictions",
       "path": "projects/Titanic Death Predictions",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-08-09T06:28:39.576148Z",
+      "created": "2022-08-09T20:27:04.549303Z",
       "format": null,
-      "last_modified": "2022-08-09T06:28:39.576148Z",
+      "last_modified": "2022-08-09T20:27:04.549303Z",
       "mimetype": null,
       "name": "Heart Failure Mortality",
       "path": "projects/Heart Failure Mortality",
@@ -26,21 +26,21 @@
     },
     {
       "content": null,
-      "created": "2022-08-09T06:28:39.576148Z",
+      "created": "2022-08-09T20:27:04.549303Z",
       "format": null,
-      "last_modified": "2022-08-09T06:27:41.620208Z",
+      "last_modified": "2022-08-09T20:26:07.281351Z",
       "mimetype": null,
       "name": "README.ipynb",
       "path": "projects/README.ipynb",
-      "size": 2024,
+      "size": 2261,
       "type": "notebook",
       "writable": true
     },
     {
       "content": null,
-      "created": "2022-08-09T06:28:39.576148Z",
+      "created": "2022-08-09T20:27:04.549303Z",
       "format": null,
-      "last_modified": "2022-08-09T06:28:39.576148Z",
+      "last_modified": "2022-08-09T20:27:04.549303Z",
       "mimetype": null,
       "name": "Robinhood Portfolio Insights",
       "path": "projects/Robinhood Portfolio Insights",
@@ -49,9 +49,9 @@
       "writable": true
     }
   ],
-  "created": "2022-08-09T06:28:39.576148Z",
+  "created": "2022-08-09T20:27:04.549303Z",
   "format": "json",
-  "last_modified": "2022-08-09T06:28:39.576148Z",
+  "last_modified": "2022-08-09T20:27:04.549303Z",
   "mimetype": null,
   "name": "projects",
   "path": "projects",
