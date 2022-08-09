@@ -6,9 +6,9 @@
       "format": null,
       "last_modified": "2022-08-09T06:13:16.540440Z",
       "mimetype": null,
-      "name": "heart_failure_knn.ipynb",
-      "path": "projects/Heart Failure Mortality/heart_failure_knn.ipynb",
-      "size": 218479,
+      "name": "Titanic_Project.ipynb",
+      "path": "projects/Titanic Death Predictions/Titanic_Project.ipynb",
+      "size": 189856,
       "type": "notebook",
       "writable": true
     }
@@ -17,8 +17,8 @@
   "format": "json",
   "last_modified": "2022-08-09T06:14:15.128950Z",
   "mimetype": null,
-  "name": "Heart Failure Mortality",
-  "path": "projects/Heart Failure Mortality",
+  "name": "Titanic Death Predictions",
+  "path": "projects/Titanic Death Predictions",
   "size": null,
   "type": "directory",
   "writable": true
