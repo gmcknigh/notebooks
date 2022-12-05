@@ -22,6 +22,9 @@
       "settings\u0004Auto-Start Client": [
         "\u81ea\u542f\u52a8\u5ba2\u6237\u7aef"
       ],
+      "settings\u0004Check dashboards via browser.": [
+        "\u901a\u8fc7\u6d4f\u89c8\u5668\u53d1\u8d77\u9a8c\u8bc1\u4eea\u8868\u76d8\u7684\u68c0\u67e5\u3002"
+      ],
       "settings\u0004Dask": [
         "Dask"
       ],
@@ -31,14 +34,29 @@
       "settings\u0004Default URL for the Dask Dashboard Webserver": [
         "Dask \u4eea\u8868\u76d8 Web \u670d\u52a1\u5668\u7684\u9ed8\u8ba4 URL"
       ],
+      "settings\u0004Default layout for Dask Dashboard panels": [
+        "\u4eea\u8868\u76d8\u9762\u677f\u7684\u9ed8\u8ba4\u5e03\u5c40"
+      ],
+      "settings\u0004Determine whether to validate dashboards via browser check.": [
+        "\u786e\u5b9a\u662f\u5426\u901a\u8fc7\u6d4f\u89c8\u5668\u53d1\u8d77\u9a8c\u8bc1\u4eea\u8868\u76d8\u7684\u68c0\u67e5\u3002"
+      ],
       "settings\u0004Hide Cluster Manager": [
         "\u9690\u85cf\u96c6\u7fa4\u7ba1\u7406\u5668"
       ],
       "settings\u0004If set to true, every notebook and console will automatically have a dask client for the active cluster injected into the kernel under the name 'client'": [
         "\u5982\u679c\u8bbe\u7f6e\u4e3a true\uff0c\u6bcf\u4e2a\u8bb0\u4e8b\u672c\u548c\u63a7\u5236\u53f0\u90fd\u4f1a\u81ea\u52a8\u4e3a\u5f53\u524d\u7528\u6237\u6dfb\u52a0\u4e00\u4e2a dask \u5ba2\u6237\u7aef\uff0c\u8be5\u5ba2\u6237\u7aef\u4ee5 client \u7684\u540d\u5b57\u6ce8\u5165\u5230\u5185\u6838\u4e2d\u3002"
       ],
+      "settings\u0004If set to true, the extension will check for the Dask dashboard from the user's browser. This is useful for testing the dashboard when behind a browser-cookie based authentication.": [
+        "\u5982\u679c\u8bbe\u7f6e\u4e3a true\uff0c\u6269\u5c55\u5c06\u4f1a\u4ece\u7528\u6237\u7684\u6d4f\u89c8\u5668\uff08\u800c\u4e0d\u662f\u670d\u52a1\u7aef\uff09\u53d1\u8d77\u9a8c\u8bc1Dask\u4eea\u8868\u76d8\u7684\u68c0\u67e5\u3002\u8fd9\u9002\u5408\u9a8c\u8bc1\u91c7\u7528\u57fa\u4e8e\u6d4f\u89c8\u5668cookie\u8eab\u4efd\u8ba4\u8bc1\u7684\u4eea\u8868\u76d8\u3002"
+      ],
+      "settings\u0004If set to true, the test dashboard will be validated within the browser environment. This is useful for testing the dashboard when behind a browser-cookie based authentication.": [
+        "\u5982\u679c\u8bbe\u7f6e\u4e3a true\uff0c\u5c06\u5728\u6d4f\u89c8\u5668\u73af\u5883\u4e2d\u9a8c\u8bc1\u6d4b\u8bd5\u4eea\u8868\u76d8\u3002\u8fd9\u662f\u9002\u5408\u6d4b\u8bd5\u57fa\u4e8e\u6d4f\u89c8\u5668cookie\u7684\u8eab\u4efd\u8ba4\u8bc1\u7684\u4eea\u8868\u76d8\u3002"
+      ],
       "settings\u0004Some deployments don't want to or are unable to use the cluster manager feature. Toggle to hide it from the user interface (note: this does not disable the underlying functionality).": [
         "\u5982\u679c\u4e0d\u60f3\u4f7f\u7528\u6216\u8005\u65e0\u6cd5\u4f7f\u7528 Dask \u7684\u96c6\u7fa4\u7ba1\u7406\u5668\u529f\u80fd\uff0c\u8bf7\u5f00\u542f\u6b64\u9009\u9879\u3002\u5f00\u542f\u540e\uff0c\u5c06\u4ece\u7528\u6237\u754c\u9762\u4e0a\u9690\u85cf\u96c6\u7fa4\u7ba1\u7406\u5668\u529f\u80fd\uff08\u6ce8\u610f\uff1a\u8fd9\u5e76\u6ca1\u6709\u7981\u7528\u8be5\u529f\u80fd\uff09\u3002"
+      ],
+      "settings\u0004This allows you to store a default layout for your Dask dashboard panels. It is stored as an object keyed by the individual chart names. Each value in the object is an object storing `mode`, which specifies how the chart is to be added to the main area, and `ref`, which is an (optional) reference to another chart. If `ref` is supplied, then `mode` will be with respect to that chart, if it is not supplied, then `mode` will be with respect to the main area. The default value for this option provides a relatively simple example specification.": [
+        "Dask\u4eea\u8868\u76d8\u9762\u677f\u7684\u9ed8\u8ba4\u5e03\u5c40\u5c06\u88ab\u4fdd\u5b58\u4e3a\u4e00\u4e2a\u5bf9\u8c61\u3002\u6bcf\u4e2a\u5355\u72ec\u7684\u56fe\u8868\u5bf9\u5e94\u5e03\u5c40\u5bf9\u8c61\u7684\u4e00\u4e2a\u952e-\u503c\u5bf9\uff1a\u952e\u7684\u540d\u5b57\u5c31\u662f\u56fe\u8868\u7684\u540d\u5b57\uff0c\u952e\u7684\u53d6\u503c\u5219\u662f\u4e00\u4e2a\u5bf9\u8c61\u3002\u8be5\u5bf9\u8c61\u5fc5\u987b\u5305\u542b\u4e00\u4e2a`mode`\u952e-\u503c\u5bf9\uff0c\u5176\u53d6\u503c\u89c4\u5b9a\u4e86\u5982\u4f55\u5728\u4e3b\u533a\u57df\u4e2d\u6dfb\u52a0\u5f53\u524d\u56fe\u8868\u3002\u5982\u679c\u5b83\u8fd8\u540c\u65f6\u5305\u542b\u4e00\u4e2a`ref`\u952e-\u503c\u5bf9\uff0c\u5176\u53d6\u503c\u662f\u5bf9\u53e6\u4e00\u4e2a\u56fe\u8868\u7684\u5f15\u7528\uff0c\u5219`mode`\u7684\u53d6\u503c\u89c4\u5b9a\u4e86\u5982\u4f55\u5728\u88ab\u5f15\u7528\u7684\u56fe\u8868\u4e2d\u6dfb\u52a0\u5f53\u524d\u56fe\u8868\u3002\u672c\u9009\u9879\u7684\u9ed8\u8ba4\u53d6\u503c\u63d0\u4f9b\u4e86\u4e00\u4e2a\u76f8\u5bf9\u7b80\u5355\u7684\u793a\u4f8b\u3002"
       ]
     },
     "jupyter_archive": {
@@ -694,6 +712,9 @@
       "Document is read-only": [
         "\u6587\u6863\u4e3a\u53ea\u8bfb\u72b6\u6001"
       ],
+      "Don't ask me again.": [
+        "\u4e0b\u6b21\u4e0d\u518d\u8be2\u95ee\u3002"
+      ],
       "Download": [
         "\u4e0b\u8f7d"
       ],
@@ -801,10 +822,6 @@
         "\u5df2\u6267\u884c %1 \u5355\u5143\u683c",
         "\u5df2\u6267\u884c %1 \u5355\u5143\u683c"
       ],
-      "Executed %1 request": [
-        "\u5df2\u6267\u884c %1 \u4e2a\u8bf7\u6c42",
-        "\u5df2\u6267\u884c %1 \u4e2a\u8bf7\u6c42"
-      ],
       "Expand All Code": [
         "\u5c55\u5f00\u6240\u6709\u4ee3\u7801"
       ],
@@ -876,6 +893,9 @@
       ],
       "File Save Error for %1": [
         "\u4fdd\u5b58\u6587\u4ef6 %1 \u65f6\u51fa\u9519"
+      ],
+      "File name": [
+        "\u6587\u4ef6\u540d"
       ],
       "Files still uploading": [
         "\u6587\u4ef6\u8fd8\u5728\u4e0a\u4f20"
@@ -957,6 +977,9 @@
       ],
       "Idle": [
         "\u7a7a\u95f2"
+      ],
+      "If checked, you will not be asked to rename future untitled files when saving them.": [
+        "\u5982\u679c\u9009\u4e2d\u6b64\u9879\uff0c\u4e4b\u540e\u4fdd\u5b58\u65e0\u6807\u9898\u6587\u4ef6\u65f6\u4e0d\u4f1a\u88ab\u8981\u6c42\u91cd\u547d\u540d\u3002"
       ],
       "Ignore": [
         "\u5ffd\u7565"
@@ -1607,6 +1630,9 @@
         "\u91cd\u547d\u540d\u9519\u8bef"
       ],
       "Rename File": [
+        "\u91cd\u547d\u540d\u6587\u4ef6"
+      ],
+      "Rename file": [
         "\u91cd\u547d\u540d\u6587\u4ef6"
       ],
       "Rename%1\u2026": [
@@ -2825,6 +2851,9 @@
       "settings\u0004Auto Closing Brackets": [
         "\u81ea\u52a8\u95ed\u5408\u62ec\u53f7"
       ],
+      "settings\u0004Auto Collapse Debugger Sidebar": [
+        "\u81ea\u52a8\u6298\u53e0\u8c03\u8bd5\u5668\u4fa7\u8fb9\u680f"
+      ],
       "settings\u0004Autosave Documents": [
         "\u81ea\u52a8\u4fdd\u5b58\u6587\u6863"
       ],
@@ -2857,6 +2886,9 @@
       ],
       "settings\u0004CodeMirror": [
         "CodeMirror"
+      ],
+      "settings\u0004Collapse the debugger sidebar when disabling the debugger on a document.": [
+        "\u5f53\u7981\u7528\u6587\u6863\u4e0a\u7684\u8c03\u8bd5\u5668\u65f6\uff0c\u6298\u53e0\u8c03\u8bd5\u5668\u4fa7\u8fb9\u680f\u3002"
       ],
       "settings\u0004Command arguments": [
         "\u547d\u4ee4\u53c2\u6570"
@@ -2965,6 +2997,9 @@
       ],
       "settings\u0004File browser toolbar items": [
         "\u6587\u4ef6\u6d4f\u89c8\u5668\u5de5\u5177\u680f\u9879\u76ee"
+      ],
+      "settings\u0004Filter directories": [
+        "\u7b5b\u9009\u76ee\u5f55"
       ],
       "settings\u0004Filter on file name with a fuzzy search": [
         "\u4f7f\u7528\u6a21\u7cca\u641c\u7d22\u8fc7\u6ee4\u6587\u4ef6\u540d"
@@ -3203,6 +3238,9 @@
       "settings\u0004Remaining time in milliseconds before virtual notebook rendering is rescheduled": [
         "\u91cd\u65b0\u5b89\u6392\u865a\u62df\u7b14\u8bb0\u672c\u6e32\u67d3\u4e4b\u524d\u7684\u5269\u4f59\u65f6\u95f4\uff08\u5355\u4f4d\uff1a\u6beb\u79d2\uff09"
       ],
+      "settings\u0004Rename Untitled File On First Save": [
+        "\u9996\u6b21\u4fdd\u5b58\u65f6\u91cd\u547d\u540d\u65e0\u6807\u9898\u7684\u6587\u4ef6"
+      ],
       "settings\u0004Render Timeout": [
         "\u6e32\u67d3\u8d85\u65f6"
       ],
@@ -3401,8 +3439,8 @@
       "settings\u0004The maximum number of output cells to be rendered in the output area.": [
         "\u8f93\u51fa\u533a\u57df\u4e2d\u8f93\u51fa\u5355\u5143\u683c\u7684\u6700\u5927\u6570\u91cf\u3002"
       ],
-      "settings\u0004The method for hiding widgets in the main dock panel. Using `scale` will often increase performance as most browsers will not trigger style computation for the transform action.": [
-        "\u5728\u4e3b\u9762\u677f\u4e2d\u9690\u85cf\u5c0f\u7ec4\u4ef6\u7684\u65b9\u6cd5\u3002\u8bbe\u7f6e\u4e3a`scale`\u901a\u5e38\u4f1a\u63d0\u9ad8\u6027\u80fd\uff0c\u56e0\u4e3a\u5927\u591a\u6570\u6d4f\u89c8\u5668\u4e0d\u4f1a\u89e6\u53d1\u8f6c\u6362\u52a8\u4f5c\u6240\u9700\u7684\u6837\u5f0f\u8ba1\u7b97\u3002"
+      "settings\u0004The method for hiding widgets in the main dock panel. Using `scale` will increase performance on Firefox but don't use it with Chrome, Chromium or Edge.": [
+        "\u7528\u4e8e\u5728\u4e3b\u9762\u677f\u4e2d\u9690\u85cf\u5c0f\u7ec4\u4ef6\u7684\u65b9\u6cd5\u3002\u4f7f\u7528 `scale` \u4f1a\u63d0\u9ad8\u5728 Firefox \u4e2d\u7684\u6027\u80fd\uff0c\u4f46\u4e0d\u8981\u5728 Chrome\u3001Chromium \u6216 Edge \u4e2d\u4f7f\u7528\u5b83\u3002"
       ],
       "settings\u0004The mode under which JupyterLab should start. If empty, the mode will be imposed by the URL": [
         "JupyterLab \u7684\u542f\u52a8\u6a21\u5f0f\u3002\u5982\u679c\u4e3a\u7a7a\uff0c\u8be5\u6a21\u5f0f\u5c06\u4ece\u94fe\u63a5\u83b7\u53d6"
@@ -3473,6 +3511,9 @@
       "settings\u0004Whether to apply fuzzy algorithm while filtering on file names": [
         "\u8fc7\u6ee4\u6587\u4ef6\u540d\u65f6\u662f\u5426\u4f7f\u7528\u6a21\u7cca\u7b97\u6cd5"
       ],
+      "settings\u0004Whether to apply the search on directories": [
+        "\u662f\u5426\u5728\u76ee\u5f55\u4e0a\u8fdb\u884c\u641c\u7d22"
+      ],
       "settings\u0004Whether to automatically navigate to a document's current directory": [
         "\u662f\u5426\u81ea\u52a8\u5bfc\u822a\u5230\u6587\u6863\u7684\u5f53\u524d\u76ee\u5f55"
       ],
@@ -3493,6 +3534,9 @@
       ],
       "settings\u0004Whether to number first-level headings": [
         "\u662f\u5426\u4e3a\u4e00\u7ea7\u6807\u9898\u663e\u793a\u7f16\u53f7"
+      ],
+      "settings\u0004Whether to prompt to rename untitled file on first manual save.": [
+        "\u662f\u5426\u5728\u7b2c\u4e00\u6b21\u624b\u52a8\u4fdd\u5b58\u65f6\u63d0\u793a\u91cd\u547d\u540d\u65e0\u6807\u9898\u6587\u4ef6\u3002"
       ],
       "settings\u0004Whether to scroll past the end of text document": [
         "\u662f\u5426\u6eda\u52a8\u8d85\u8fc7\u6587\u672c\u6587\u6863\u7684\u672b\u7aef"
@@ -3598,6 +3642,9 @@
       "Add": [
         "\u6dfb\u52a0"
       ],
+      "Add Remote": [
+        "\u6dfb\u52a0\u8fdc\u7a0b\u4ed3\u5e93"
+      ],
       "Add Remote Repository": [
         "\u6dfb\u52a0\u8fdc\u7a0b\u4ed3\u5e93"
       ],
@@ -3669,6 +3716,9 @@
       ],
       "Checkout to tag: %1": [
         "\u68c0\u51fa\u5230\u6807\u7b7e\uff1a%1"
+      ],
+      "Choose a remote to push to.": [
+        "\u9009\u62e9\u4e00\u4e2a\u8981\u63a8\u9001\u7684\u8fdc\u7a0b\u4ed3\u5e93\u3002"
       ],
       "Clear the current filter": [
         "\u6e05\u9664\u5f53\u524d\u7b5b\u9009\u5668"
@@ -3916,6 +3966,12 @@
       "Enter a commit message summary (a single line, preferably less than 50 characters)": [
         "\u8f93\u5165\u4e00\u4e2a\u63d0\u4ea4\u6d88\u606f\u6458\u8981\uff08\u5355\u884c\uff0c\u6700\u597d\u5c11\u4e8e 50 \u4e2a\u5b57\u7b26\uff09"
       ],
+      "Enter a new remote repository name and URL": [
+        "\u8f93\u5165\u4e00\u4e2a\u65b0\u7684\u8fdc\u7a0b\u4ed3\u5e93\u540d\u79f0\u548c URL"
+      ],
+      "Enter a new remote repository name and url": [
+        "\u8f93\u5165\u4e00\u4e2a\u65b0\u7684\u8fdc\u7a0b\u4ed3\u5e93\u540d\u79f0\u548c URL"
+      ],
       "Enter credentials for remote repository": [
         "\u8f93\u5165\u8fdc\u7a0b\u4ed3\u5e93\u7684\u767b\u5f55\u51ed\u636e"
       ],
@@ -3936,6 +3992,9 @@
       ],
       "Error when adding remote repository": [
         "\u6dfb\u52a0\u8fdc\u7a0b\u4ed3\u5e93\u65f6\u51fa\u9519"
+      ],
+      "Existing Remotes:": [
+        "\u5f53\u524d\u8fdc\u7a0b\u4ed3\u5e93\uff1a"
       ],
       "Fail to get the tags.": [
         "\u65e0\u6cd5\u83b7\u53d6\u6807\u7b7e\u3002"
@@ -4009,6 +4068,9 @@
       "Filter branch menu": [
         "\u7b5b\u9009\u5206\u652f\u83dc\u5355"
       ],
+      "Force Push": [
+        "\u5f3a\u5236\u63a8\u9001"
+      ],
       "Git Documentation": [
         "Git \u6587\u6863"
       ],
@@ -4076,8 +4138,17 @@
       "Initializing\u2026": [
         "\u6b63\u5728\u521d\u59cb\u5316\u2026"
       ],
+      "Loading remote repositories...": [
+        "\u8f7d\u5165\u8fdc\u7a0b\u4ed3\u5e93..."
+      ],
       "Looks like you still have unsaved staged files. Remember to save and stage all needed changes before committing!": [
         "\u4f3c\u4e4e\u60a8\u4ecd\u7136\u6709\u5c1a\u672a\u4fdd\u5b58\u7684\u6682\u5b58\u6587\u4ef6\u3002\u8bf7\u8bb0\u5f97\u5728\u63d0\u4ea4\u4e4b\u524d\u4fdd\u5b58\u5e76\u6682\u5b58\u6240\u6709\u9700\u8981\u7684\u6539\u52a8\uff01"
+      ],
+      "Manage Remote Repositories": [
+        "\u7ba1\u7406\u8fdc\u7a0b\u4ed3\u5e93"
+      ],
+      "Manage Remotes": [
+        "\u7ba1\u7406\u8fdc\u7a0b\u4ed3\u5e93"
       ],
       "Manage branches and tags": [
         "\u7ba1\u7406\u5206\u652f\u548c\u6807\u7b7e"
@@ -4178,6 +4249,9 @@
       "Please commit, stash, or discard your changes before you switch branches.": [
         "\u8bf7\u5728\u5207\u6362\u5206\u652f\u4e4b\u524d\u63d0\u4ea4\u3001\u53d1\u5e03\u6216\u653e\u5f03\u60a8\u7684\u6539\u52a8\u3002"
       ],
+      "Please select push options.": [
+        "\u8bf7\u9009\u62e9\u63a8\u9001\u9009\u9879\u3002"
+      ],
       "Proceed": [
         "\u7ee7\u7eed"
       ],
@@ -4217,6 +4291,9 @@
       "Push to Remote": [
         "\u63a8\u9001\u81f3\u8fdc\u7a0b"
       ],
+      "Push to Remote (Advanced)": [
+        "\u63a8\u9001\u81f3\u8fdc\u7a0b\uff08\u9ad8\u7ea7\uff09"
+      ],
       "Push to Remote (Force)": [
         "\u63a8\u9001\u81f3\u8fdc\u7a0b\uff08\u5f3a\u5236\uff09"
       ],
@@ -4249,6 +4326,9 @@
       ],
       "Remote Git repository URL": [
         "\u8fdc\u7a0b Git \u4ed3\u5e93 URL"
+      ],
+      "Remove this remote": [
+        "\u79fb\u9664\u6b64\u8fdc\u7a0b\u4ed3\u5e93"
       ],
       "Reset Changes": [
         "\u91cd\u7f6e\u6539\u52a8"
@@ -4412,6 +4492,9 @@
       "This file has been deleted!": [
         "\u8be5\u6587\u4ef6\u5df2\u5220\u9664"
       ],
+      "This repository has no known remotes.": [
+        "\u5f53\u524d\u4ed3\u5e93\u6ca1\u6709\u5df2\u77e5\u7684\u8fdc\u7a0b\u7248\u672c\u3002"
+      ],
       "This reverts commit %1": [
         "\u6d59\u6c5f\u64a4\u56de\u63d0\u4ea4 %1"
       ],
@@ -4522,6 +4605,9 @@
       ],
       "menu\u0004Help": [
         "\u5e2e\u52a9"
+      ],
+      "name": [
+        "\u540d\u79f0"
       ],
       "now": [
         "\u73b0\u5728"

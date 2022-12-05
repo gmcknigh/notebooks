@@ -22,6 +22,9 @@
       "settings\u0004Auto-Start Client": [
         "D\u00e9marrage automatique du client"
       ],
+      "settings\u0004Check dashboards via browser.": [
+        "V\u00e9rifier les tableaux de bord via le navigateur."
+      ],
       "settings\u0004Dask": [
         "Dask"
       ],
@@ -31,14 +34,29 @@
       "settings\u0004Default URL for the Dask Dashboard Webserver": [
         "URL par d\u00e9faut pour le serveur Web du tableau de bord du Dask"
       ],
+      "settings\u0004Default layout for Dask Dashboard panels": [
+        "Disposition par d\u00e9faut pour le tableau de bord Dask"
+      ],
+      "settings\u0004Determine whether to validate dashboards via browser check.": [
+        "D\u00e9termine s'il faut valider les tableaux de bord via la v\u00e9rification du navigateur."
+      ],
       "settings\u0004Hide Cluster Manager": [
         "Masquer le gestionnaire de cluster"
       ],
       "settings\u0004If set to true, every notebook and console will automatically have a dask client for the active cluster injected into the kernel under the name 'client'": [
         "Si d\u00e9fini \u00e0 true, chaque notebook et console aura automatiquement un client dask pour le cluster actif inject\u00e9 dans le noyau sous le nom de 'client'"
       ],
+      "settings\u0004If set to true, the extension will check for the Dask dashboard from the user's browser. This is useful for testing the dashboard when behind a browser-cookie based authentication.": [
+        "Si activ\u00e9, l'extension v\u00e9rifiera le tableau de bord Dask \u00e0 partir du navigateur de l'utilisateur. Ceci est utile pour tester le tableau de bord prot\u00e9g\u00e9 par une authentification bas\u00e9e sur les cookies du navigateur."
+      ],
+      "settings\u0004If set to true, the test dashboard will be validated within the browser environment. This is useful for testing the dashboard when behind a browser-cookie based authentication.": [
+        "Si activ\u00e9, le tableau de bord de test sera valid\u00e9 dans l'environnement du navigateur. Ceci est utile pour tester le tableau de bord prot\u00e9g\u00e9 par une authentification bas\u00e9e sur les cookies du navigateur."
+      ],
       "settings\u0004Some deployments don't want to or are unable to use the cluster manager feature. Toggle to hide it from the user interface (note: this does not disable the underlying functionality).": [
         "Certains d\u00e9ploiements ne veulent pas ou ne sont pas capables d'utiliser la fonctionnalit\u00e9 de gestion du cluster. Activer/d\u00e9sactiver cette fonction de l'interface utilisateur (note: cela ne d\u00e9sactive pas la fonctionnalit\u00e9 sous-jacente)."
+      ],
+      "settings\u0004This allows you to store a default layout for your Dask dashboard panels. It is stored as an object keyed by the individual chart names. Each value in the object is an object storing `mode`, which specifies how the chart is to be added to the main area, and `ref`, which is an (optional) reference to another chart. If `ref` is supplied, then `mode` will be with respect to that chart, if it is not supplied, then `mode` will be with respect to the main area. The default value for this option provides a relatively simple example specification.": [
+        "Cela vous permet de stocker une mise en page par d\u00e9faut pour votre tableau de bord Dask. Il est stock\u00e9 sous la forme d'un objet cl\u00e9 par les noms individuels du graphique. Chaque valeur dans l'objet est un objet stockant le `mode`, qui sp\u00e9cifie comment le graphique doit \u00eatre ajout\u00e9 \u00e0 la zone principale, et `ref`, qui est une r\u00e9f\u00e9rence (optionnelle) \u00e0 un autre graphique. Si `ref` est fourni, alors `mode` sera en fonction de ce graphique, si elle n'est pas fournie, alors `mode` sera li\u00e9 \u00e0 la zone principale. La valeur par d\u00e9faut de cette option fournit un exemple relativement simple."
       ]
     },
     "jupyter_archive": {
@@ -696,6 +714,9 @@
       "Document is read-only": [
         "Le document est en lecture seule"
       ],
+      "Don't ask me again.": [
+        "Ne plus me demander."
+      ],
       "Download": [
         "T\u00e9l\u00e9charger"
       ],
@@ -805,11 +826,6 @@
         "%1 cellule ex\u00e9cut\u00e9e",
         "%1 cellules ex\u00e9cut\u00e9es"
       ],
-      "Executed %1 request": [
-        "Executed %1 requests",
-        "%1 requ\u00eate ex\u00e9cut\u00e9e",
-        "%1 requ\u00eates ex\u00e9cut\u00e9es"
-      ],
       "Expand All Code": [
         "D\u00e9velopper tout le code"
       ],
@@ -881,6 +897,9 @@
       ],
       "File Save Error for %1": [
         "Erreur d'enregistrement du fichier pour %1"
+      ],
+      "File name": [
+        "Nom du fichier"
       ],
       "Files still uploading": [
         "Fichiers en cours de chargement"
@@ -962,6 +981,9 @@
       ],
       "Idle": [
         "Inactif"
+      ],
+      "If checked, you will not be asked to rename future untitled files when saving them.": [
+        "Si coch\u00e9, il ne vous sera plus demand\u00e9 de renommer les fichiers sans titre lors de leur sauvegarde."
       ],
       "Ignore": [
         "Ignorer"
@@ -1612,6 +1634,9 @@
         "Erreur lors du renommage"
       ],
       "Rename File": [
+        "Renommer le fichier"
+      ],
+      "Rename file": [
         "Renommer le fichier"
       ],
       "Rename%1\u2026": [
@@ -2831,6 +2856,9 @@
       "settings\u0004Auto Closing Brackets": [
         "Fermeture automatique des parenth\u00e8ses"
       ],
+      "settings\u0004Auto Collapse Debugger Sidebar": [
+        "R\u00e9duire automatiquement le panneau lat\u00e9ral du d\u00e9bogueur"
+      ],
       "settings\u0004Autosave Documents": [
         "Enregistrement automatique des documents"
       ],
@@ -2863,6 +2891,9 @@
       ],
       "settings\u0004CodeMirror": [
         "CodeMirror"
+      ],
+      "settings\u0004Collapse the debugger sidebar when disabling the debugger on a document.": [
+        "Collapse the debugger sidebar when disabling the debugger on a document."
       ],
       "settings\u0004Command arguments": [
         "Arguments de la commande"
@@ -2971,6 +3002,9 @@
       ],
       "settings\u0004File browser toolbar items": [
         "\u00c9l\u00e9ments de la barre d'outils du navigateur de fichiers"
+      ],
+      "settings\u0004Filter directories": [
+        "Filtrer les r\u00e9pertoires"
       ],
       "settings\u0004Filter on file name with a fuzzy search": [
         "Filtrer sur le nom du fichier avec une recherche floue"
@@ -3209,6 +3243,9 @@
       "settings\u0004Remaining time in milliseconds before virtual notebook rendering is rescheduled": [
         "Temps restant en millisecondes avant que le rendu du notebook virtuel ne soit reprogramm\u00e9"
       ],
+      "settings\u0004Rename Untitled File On First Save": [
+        "Renommer le fichier sans titre lors de la premi\u00e8re sauvegarde"
+      ],
       "settings\u0004Render Timeout": [
         "D\u00e9lai d'expiration pour le Rendu"
       ],
@@ -3407,8 +3444,8 @@
       "settings\u0004The maximum number of output cells to be rendered in the output area.": [
         "Le nombre maximum de r\u00e9sultats \u00e0 afficher dans la zone de sortie d'une cellule."
       ],
-      "settings\u0004The method for hiding widgets in the main dock panel. Using `scale` will often increase performance as most browsers will not trigger style computation for the transform action.": [
-        "La m\u00e9thode pour masquer les widgets dans le panneau principal du dock. L'utilisation de `scale` augmentera souvent les performances car la plupart des navigateurs ne d\u00e9clencheront pas le calcul de style pour l'action de transformation."
+      "settings\u0004The method for hiding widgets in the main dock panel. Using `scale` will increase performance on Firefox but don't use it with Chrome, Chromium or Edge.": [
+        "La m\u00e9thode pour masquer les widgets dans le panneau principal. L'option `scale` augmentera les performances sur Firefox, mais ne doit pas \u00eatre utilis\u00e9e avec Chrome, Chromium ou Edge."
       ],
       "settings\u0004The mode under which JupyterLab should start. If empty, the mode will be imposed by the URL": [
         "Le mode d'affichage de JupyterLab au d\u00e9marrage. Si vide, le mode sera impos\u00e9 par l'URL"
@@ -3479,6 +3516,9 @@
       "settings\u0004Whether to apply fuzzy algorithm while filtering on file names": [
         "Appliquer ou non un algorithme flou lors du filtrage sur les noms de fichiers"
       ],
+      "settings\u0004Whether to apply the search on directories": [
+        "Appliquer ou non la recherche sur les r\u00e9pertoires"
+      ],
       "settings\u0004Whether to automatically navigate to a document's current directory": [
         "Si vous souhaitez naviguer automatiquement vers le r\u00e9pertoire courant d'un document"
       ],
@@ -3499,6 +3539,9 @@
       ],
       "settings\u0004Whether to number first-level headings": [
         "Nombre d'en-t\u00eates de premier niveau ou non"
+      ],
+      "settings\u0004Whether to prompt to rename untitled file on first manual save.": [
+        "Faut-il demander de renommer le fichier sans titre lors de la premi\u00e8re sauvegarde manuelle."
       ],
       "settings\u0004Whether to scroll past the end of text document": [
         "S'il faut d\u00e9filer apr\u00e8s la fin du document texte"
@@ -3604,6 +3647,9 @@
       "Add": [
         "Ajouter"
       ],
+      "Add Remote": [
+        "Ajouter un d\u00e9p\u00f4t distant"
+      ],
       "Add Remote Repository": [
         "Ajouter un D\u00e9p\u00f4t Distant"
       ],
@@ -3675,6 +3721,9 @@
       ],
       "Checkout to tag: %1": [
         "Passer au tag : %1"
+      ],
+      "Choose a remote to push to.": [
+        "Choisissez le d\u00e9p\u00f4t distant vers lequel pousser."
       ],
       "Clear the current filter": [
         "Effacer le filtre actuel"
@@ -3922,6 +3971,12 @@
       "Enter a commit message summary (a single line, preferably less than 50 characters)": [
         "Entrez un r\u00e9sum\u00e9 du message de commit (une seule ligne, de pr\u00e9f\u00e9rence moins de 50 caract\u00e8res)"
       ],
+      "Enter a new remote repository name and URL": [
+        "Entrez un nouveau nom de d\u00e9p\u00f4t distant et une nouvelle URL"
+      ],
+      "Enter a new remote repository name and url": [
+        "Entrez un nouveau nom de d\u00e9p\u00f4t distant et une nouvelle URL"
+      ],
       "Enter credentials for remote repository": [
         "Entrez vos informations d'identification pour le d\u00e9p\u00f4t distant"
       ],
@@ -3942,6 +3997,9 @@
       ],
       "Error when adding remote repository": [
         "Erreur produite lors de l'ajout d'un d\u00e9p\u00f4t distant"
+      ],
+      "Existing Remotes:": [
+        "D\u00e9p\u00f4ts distants existants :"
       ],
       "Fail to get the tags.": [
         "Impossible de r\u00e9cup\u00e9rer les tags."
@@ -4015,6 +4073,9 @@
       "Filter branch menu": [
         "Menu de filtrage de branche"
       ],
+      "Force Push": [
+        "\u00c9craser le d\u00e9p\u00f4t distant"
+      ],
       "Git Documentation": [
         "Documentation Git"
       ],
@@ -4083,8 +4144,17 @@
       "Initializing\u2026": [
         "Initialisation\u2026"
       ],
+      "Loading remote repositories...": [
+        "Chargement des d\u00e9p\u00f4ts distants..."
+      ],
       "Looks like you still have unsaved staged files. Remember to save and stage all needed changes before committing!": [
         "Vous avez encore des fichiers index\u00e9s non enregistr\u00e9s. N'oubliez pas d'enregistrer et d'indexer toutes les modifications n\u00e9cessaires avant de les enregistrer !"
+      ],
+      "Manage Remote Repositories": [
+        "G\u00e9rer les d\u00e9p\u00f4ts distants"
+      ],
+      "Manage Remotes": [
+        "G\u00e9rer les d\u00e9p\u00f4ts distants"
       ],
       "Manage branches and tags": [
         "G\u00e9rer les branches et les tags"
@@ -4185,6 +4255,9 @@
       "Please commit, stash, or discard your changes before you switch branches.": [
         "Veuillez valider, remiser ou annuler vos modifications avant de changer de branche."
       ],
+      "Please select push options.": [
+        "Veuillez s\u00e9lectionner les options pour pousser."
+      ],
       "Proceed": [
         "Continuer"
       ],
@@ -4224,6 +4297,9 @@
       "Push to Remote": [
         "Pousser vers un d\u00e9p\u00f4t distant"
       ],
+      "Push to Remote (Advanced)": [
+        "Pousser vers distant (Avanc\u00e9)"
+      ],
       "Push to Remote (Force)": [
         "Pousser vers distant (Force)"
       ],
@@ -4256,6 +4332,9 @@
       ],
       "Remote Git repository URL": [
         "URL du d\u00e9p\u00f4t Git distant"
+      ],
+      "Remove this remote": [
+        "Supprimer ce d\u00e9p\u00f4t distant"
       ],
       "Reset Changes": [
         "R\u00e9initialiser les changements"
@@ -4419,6 +4498,9 @@
       "This file has been deleted!": [
         "Ce fichier a \u00e9t\u00e9 supprim\u00e9!"
       ],
+      "This repository has no known remotes.": [
+        "Ce r\u00e9pertoire n'a pas de d\u00e9p\u00f4ts distants."
+      ],
       "This reverts commit %1": [
         "Ceci revient au commit %1"
       ],
@@ -4529,6 +4611,9 @@
       ],
       "menu\u0004Help": [
         "Aide"
+      ],
+      "name": [
+        "nom"
       ],
       "now": [
         "maintenant"
