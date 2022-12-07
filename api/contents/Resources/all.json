@@ -2,32 +2,20 @@
   "content": [
     {
       "content": null,
-      "created": "2022-12-06T17:44:54.386328Z",
+      "created": "2022-12-07T17:07:49.679986Z",
       "format": null,
-      "last_modified": "2022-12-06T17:43:48.539340Z",
+      "last_modified": "2022-12-07T17:06:47.406404Z",
       "mimetype": null,
       "name": "Resources_PL_SQL.ipynb",
       "path": "Resources/Resources_PL_SQL.ipynb",
       "size": 6440,
       "type": "notebook",
       "writable": true
-    },
-    {
-      "content": null,
-      "created": "2022-12-06T17:44:54.386328Z",
-      "format": null,
-      "last_modified": "2022-12-06T17:43:48.539340Z",
-      "mimetype": null,
-      "name": "Resources_PL_SQL (1).ipynb",
-      "path": "Resources/Resources_PL_SQL (1).ipynb",
-      "size": 32161,
-      "type": "notebook",
-      "writable": true
     }
   ],
-  "created": "2022-12-06T17:44:54.386328Z",
+  "created": "2022-12-07T17:07:49.679986Z",
   "format": "json",
-  "last_modified": "2022-12-06T17:44:54.386328Z",
+  "last_modified": "2022-12-07T17:07:49.679986Z",
   "mimetype": null,
   "name": "Resources",
   "path": "Resources",
