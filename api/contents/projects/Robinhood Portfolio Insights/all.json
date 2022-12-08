@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-12-07T17:10:18.584589Z",
+      "created": "2022-12-08T16:38:07.516297Z",
       "format": null,
-      "last_modified": "2022-12-07T17:09:11.247692Z",
+      "last_modified": "2022-12-08T16:36:38.287973Z",
       "mimetype": null,
       "name": "etf_portfolio_insights.ipynb",
       "path": "projects/Robinhood Portfolio Insights/etf_portfolio_insights.ipynb",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-12-07T17:10:18.584589Z",
+  "created": "2022-12-08T16:38:07.516297Z",
   "format": "json",
-  "last_modified": "2022-12-07T17:10:18.584589Z",
+  "last_modified": "2022-12-08T16:38:07.516297Z",
   "mimetype": null,
   "name": "Robinhood Portfolio Insights",
   "path": "projects/Robinhood Portfolio Insights",
