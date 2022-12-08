@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-12-08T16:38:07.516297Z",
+      "created": "2022-12-08T22:28:57.482507Z",
       "format": null,
-      "last_modified": "2022-12-08T16:36:38.287973Z",
+      "last_modified": "2022-12-08T22:27:53.538008Z",
       "mimetype": null,
       "name": "heart_failure_knn.ipynb",
       "path": "projects/Heart Failure Mortality/heart_failure_knn.ipynb",
@@ -14,9 +14,9 @@
     },
     {
       "content": null,
-      "created": "2022-12-08T16:38:07.516297Z",
+      "created": "2022-12-08T22:28:57.482507Z",
       "format": null,
-      "last_modified": "2022-12-08T16:36:38.287973Z",
+      "last_modified": "2022-12-08T22:27:53.538008Z",
       "mimetype": "text/csv",
       "name": "heartdata.csv",
       "path": "projects/Heart Failure Mortality/heartdata.csv",
@@ -25,9 +25,9 @@
       "writable": true
     }
   ],
-  "created": "2022-12-08T16:38:07.516297Z",
+  "created": "2022-12-08T22:28:57.482507Z",
   "format": "json",
-  "last_modified": "2022-12-08T16:38:07.516297Z",
+  "last_modified": "2022-12-08T22:28:57.482507Z",
   "mimetype": null,
   "name": "Heart Failure Mortality",
   "path": "projects/Heart Failure Mortality",
