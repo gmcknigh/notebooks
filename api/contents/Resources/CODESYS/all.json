@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-12-29T21:52:31.433275Z",
+      "created": "2022-12-29T21:52:06.499492Z",
       "format": null,
-      "last_modified": "2022-12-29T21:51:33.741235Z",
+      "last_modified": "2022-12-29T21:51:00.684092Z",
       "mimetype": null,
       "name": "blank",
       "path": "Resources/CODESYS/blank",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-12-29T21:52:31.433275Z",
+  "created": "2022-12-29T21:52:06.499492Z",
   "format": "json",
-  "last_modified": "2022-12-29T21:52:31.433275Z",
+  "last_modified": "2022-12-29T21:52:06.499492Z",
   "mimetype": null,
   "name": "CODESYS",
   "path": "Resources/CODESYS",
