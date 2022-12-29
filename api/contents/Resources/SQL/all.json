@@ -2,9 +2,9 @@
   "content": [
     {
       "content": null,
-      "created": "2022-12-29T21:52:14.132018Z",
+      "created": "2022-12-29T21:52:17.967749Z",
       "format": null,
-      "last_modified": "2022-12-29T21:51:13.692039Z",
+      "last_modified": "2022-12-29T21:51:21.262914Z",
       "mimetype": null,
       "name": "blank",
       "path": "Resources/SQL/blank",
@@ -13,9 +13,9 @@
       "writable": true
     }
   ],
-  "created": "2022-12-29T21:52:14.132018Z",
+  "created": "2022-12-29T21:52:17.967749Z",
   "format": "json",
-  "last_modified": "2022-12-29T21:52:14.132018Z",
+  "last_modified": "2022-12-29T21:52:17.967749Z",
   "mimetype": null,
   "name": "SQL",
   "path": "Resources/SQL",
