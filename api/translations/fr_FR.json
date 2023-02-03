@@ -109,6 +109,97 @@
         "S'il faut ou non suivre les liens symboliques et ajouter des fichiers r\u00e9sultants \u00e0 l'archive; un parmi ['true', 'false']"
       ]
     },
+    "jupyter_resource_usage": {
+      "": {
+        "domain": "jupyter_resource_usage",
+        "language": "fr-FR",
+        "plural_forms": "nplurals=2; plural=(n > 1);",
+        "version": "jupyterlab"
+      },
+      "%2%% used on %1 CPU": [
+        "%2%% used on %1 CPUs",
+        "%2%% utilis\u00e9 sur %1 processeur",
+        "%2%% utilis\u00e9 sur %1 processeurs"
+      ],
+      "Active:": [
+        "Actif :"
+      ],
+      "Available:": [
+        "Disponible\u00a0:"
+      ],
+      "CPU:": [
+        "Processeur :"
+      ],
+      "Current memory usage": [
+        "Utilisation actuelle de la m\u00e9moire"
+      ],
+      "Free:": [
+        "Libre\u00a0:"
+      ],
+      "Host CPU": [
+        "CPU de l'h\u00f4te"
+      ],
+      "Host Virtual Memory": [
+        "M\u00e9moire virtuelle de l'h\u00f4te"
+      ],
+      "Inactive:": [
+        "Inactif :"
+      ],
+      "Kernel Host:": [
+        "H\u00f4te du noyau :"
+      ],
+      "Kernel ID:": [
+        "Identifiant du noyau\u00a0:"
+      ],
+      "Kernel Resource": [
+        "Ressources du noyau"
+      ],
+      "Kernel Usage": [
+        "Utilisation du noyau"
+      ],
+      "Kernel usage": [
+        "Utilisation du noyau"
+      ],
+      "Kernel usage details are not available": [
+        "Les d\u00e9tails d'utilisation du noyau ne sont pas disponibles"
+      ],
+      "Kernel usage is not available": [
+        "L'utilisation du noyau n'est pas disponible"
+      ],
+      "Mem: %1 %2": [
+        "M\u00e9m: %1 %2"
+      ],
+      "Mem: %1 / %2 %3": [
+        "M\u00e9m: %1 / %2 %3"
+      ],
+      "Memory:": [
+        "M\u00e9moire :"
+      ],
+      "Notebook:": [
+        "Notebook :"
+      ],
+      "Percent used:": [
+        "Pourcentage utilis\u00e9 :"
+      ],
+      "Please check with your system administrator that you are running IPyKernel version 6.10.0 or above.": [
+        "Veuillez v\u00e9rifier aupr\u00e8s de votre administrateur syst\u00e8me que vous utilisez IPyKernel version 6.10.0 ou sup\u00e9rieure."
+      ],
+      "Process ID:": [
+        "ID du processus :"
+      ],
+      "Timestamp:": [
+        "Date et heure :"
+      ],
+      "Total:": [
+        "Total :"
+      ],
+      "Used:": [
+        "Utilis\u00e9 :"
+      ],
+      "Wired:": [
+        "Branch\u00e9 :"
+      ]
+    },
     "jupyterlab": {
       "": {
         "domain": "jupyterlab",
@@ -1175,7 +1266,7 @@
         "Documentation du code de mise \u00e0 jour en direct depuis le noyau actif"
       ],
       "Ln %1, Col %2": [
-        "Ln %1, Col %2"
+        "Li %1, Col %2"
       ],
       "Loading\u2026": [
         "Chargement\u2026"
@@ -2893,7 +2984,7 @@
         "CodeMirror"
       ],
       "settings\u0004Collapse the debugger sidebar when disabling the debugger on a document.": [
-        "Collapse the debugger sidebar when disabling the debugger on a document."
+        "R\u00e9duire la barre lat\u00e9rale du d\u00e9bogueur lorsque le d\u00e9bogueur est d\u00e9sactiv\u00e9 sur un document."
       ],
       "settings\u0004Command arguments": [
         "Arguments de la commande"
@@ -3800,6 +3891,9 @@
       "Continue Without Pulling": [
         "Continuer sans tirer les changements"
       ],
+      "Control character": [
+        "Caract\u00e8re de contr\u00f4le"
+      ],
       "Create Branch": [
         "Cr\u00e9er une branche"
       ],
@@ -3879,7 +3973,7 @@
         "D\u00e9tails"
       ],
       "Diff": [
-        "Diff"
+        "Diff\u00e9rence"
       ],
       "Diff Not Supported": [
         "Diff non pris en charge"
@@ -3956,6 +4050,9 @@
       "Double click opens diff": [
         "Double clic ouvre les diff\u00e9rences"
       ],
+      "Download the repository": [
+        "T\u00e9l\u00e9charger le d\u00e9p\u00f4t"
+      ],
       "Encountered an error when initializing the repository. Error: ": [
         "Une erreur s'est produite lors de l'initialisation du d\u00e9p\u00f4t. Erreur: "
       ],
@@ -3982,6 +4079,9 @@
       ],
       "Enter the Clone URI of the repository": [
         "Entrez l'URI de clonage du d\u00e9p\u00f4t"
+      ],
+      "Enter the URI of the remote Git repository": [
+        "Entrez l'URI du d\u00e9p\u00f4t Git distant"
       ],
       "Error": [
         "Erreur"
@@ -4073,8 +4173,23 @@
       "Filter branch menu": [
         "Menu de filtrage de branche"
       ],
+      "Find": [
+        "Rechercher"
+      ],
+      "Fold line": [
+        "Replier la ligne"
+      ],
+      "Folded lines": [
+        "Lignes repli\u00e9es"
+      ],
       "Force Push": [
         "\u00c9craser le d\u00e9p\u00f4t distant"
+      ],
+      "Git": [
+        "Git"
+      ],
+      "Git Clone": [
+        "Clone avec Git"
       ],
       "Git Documentation": [
         "Documentation Git"
@@ -4097,6 +4212,9 @@
       "Go to Git user interface": [
         "Aller \u00e0 l'interface utilisateur de Git"
       ],
+      "Go to line": [
+        "Aller \u00e0 la ligne"
+      ],
       "Hide unchanged cells": [
         "Masquer les cellules inchang\u00e9es"
       ],
@@ -4105,6 +4223,15 @@
       ],
       "INCOMING": [
         "\u00c0 venir"
+      ],
+      "Identical text collapsed. Click to expand.": [
+        "Texte identique r\u00e9duit. Cliquez pour d\u00e9velopper."
+      ],
+      "If checked, the remote repository default branch will be downloaded instead of cloned": [
+        "Si cette case est coch\u00e9e, la branche par d\u00e9faut du d\u00e9p\u00f4t distant sera t\u00e9l\u00e9charg\u00e9e au lieu d'\u00eatre clon\u00e9e"
+      ],
+      "If checked, the remote submodules in the repository will be cloned recursively": [
+        "Si coch\u00e9, les sous-modules distants du d\u00e9p\u00f4t seront clon\u00e9s r\u00e9cursivement"
       ],
       "Ignore": [
         "Ignorer"
@@ -4128,6 +4255,9 @@
       ],
       "Ignore this file extension (add to .gitignore)": [
         "Ignorer cette extension de fichier (ajouter \u00e0 .gitignore)"
+      ],
+      "Include submodules": [
+        "Inclure les sous-modules"
       ],
       "Incoming": [
         "Arrivant"
@@ -4303,6 +4433,9 @@
       "Push to Remote (Force)": [
         "Pousser vers distant (Force)"
       ],
+      "Push to left": [
+        "Affecter \u00e0 gauche"
+      ],
       "Pushing...": [
         "Poussage en cours..."
       ],
@@ -4336,6 +4469,9 @@
       "Remove this remote": [
         "Supprimer ce d\u00e9p\u00f4t distant"
       ],
+      "Replace": [
+        "Remplacer"
+      ],
       "Reset Changes": [
         "R\u00e9initialiser les changements"
       ],
@@ -4366,6 +4502,9 @@
       "Revert changes introduced by this commit": [
         "Annuler les modifications introduites par ce commit"
       ],
+      "Revert chunk": [
+        "Annuler le tron\u00e7on"
+      ],
       "Reverting changes...": [
         "Annuler les modifications..."
       ],
@@ -4383,6 +4522,9 @@
       ],
       "Select the branch to merge in %1": [
         "S\u00e9lectionnez la branche \u00e0 fusionner dans %1"
+      ],
+      "Selection deleted": [
+        "S\u00e9lection supprim\u00e9e"
       ],
       "Set Up Remotes": [
         "Mise en place d'un d\u00e9p\u00f4t distant"
@@ -4472,7 +4614,7 @@
         "Basculer vers la branche : %1"
       ],
       "Tags": [
-        "Tags"
+        "\u00c9tiquettes"
       ],
       "The current branch contains files with uncommitted changes. Please commit or discard these changes before switching to or creating another branch.": [
         "La branche actuelle contient des fichiers avec des modifications non valid\u00e9es. Veuillez valider ou annuler ces modifications avant de basculer vers ou de cr\u00e9er une autre branche."
@@ -4507,6 +4649,9 @@
       "To bring the current branch to the state of its corresponding remote tracking branch,             a hard reset will be performed, which may result in some files being permanently deleted             and some changes being permanently discarded. Are you sure you want to proceed?             This action cannot be undone.": [
         "Pour r\u00e9tablir la branche actuelle \u00e0 l'\u00e9tat de sa branche distante correspondante, une r\u00e9initialisation forte sera effectu\u00e9e. Celle-ci peut entra\u00eener la suppression permanente de certains fichiers et la perte d\u00e9finitives de certaines modifications locales. \u00cates-vous s\u00fbr de vouloir continuer? Cette action ne peut pas \u00eatre annul\u00e9e."
       ],
+      "Toggle locked scrolling": [
+        "Verrouiller/D\u00e9verrouiller le d\u00e9filement"
+      ],
       "Track": [
         "Suivre"
       ],
@@ -4524,6 +4669,12 @@
       ],
       "Uncommitted Changes": [
         "Modifications non valid\u00e9es"
+      ],
+      "Unfold line": [
+        "D\u00e9plier la ligne"
+      ],
+      "Unfolded lines": [
+        "Lignes d\u00e9pli\u00e9es"
       ],
       "Unstage": [
         "D\u00e9sindexer"
@@ -4594,8 +4745,20 @@
       "Your current changes forbid pulling the latest changes. Do you want to permanently discard those changes? This action cannot be undone.": [
         "Vos modifications actuelles interdisent d'extraire les derni\u00e8res modifications. Voulez-vous supprimer d\u00e9finitivement ces modifications ? Cette action ne peut pas \u00eatre annul\u00e9e."
       ],
+      "all": [
+        "tout"
+      ],
+      "close": [
+        "fermer"
+      ],
       "credentials required": [
         "identifiants requis"
+      ],
+      "current match": [
+        "correspondance actuelle"
+      ],
+      "folded code": [
+        "code pli\u00e9"
       ],
       "git command not found - please ensure you have Git > 2 installed": [
         "commande git est introuvable - veuillez vous assurer que Git > 2 est install\u00e9"
@@ -4603,8 +4766,14 @@
       "git command version must be > 2; got %1.": [
         "la version de la commande git doit \u00eatre > 2; obtenu %1."
       ],
+      "go": [
+        "aller"
+      ],
       "is not": [
         "n'est pas"
+      ],
+      "match case": [
+        "respecte la casse"
       ],
       "menu\u0004Git": [
         "Git"
@@ -4615,14 +4784,41 @@
       "name": [
         "nom"
       ],
+      "next": [
+        "suivant"
+      ],
       "now": [
         "maintenant"
+      ],
+      "on line": [
+        "\u00e0 la ligne"
       ],
       "password / personal access token": [
         "mot de passe / jeton d'acc\u00e8s personnel"
       ],
+      "previous": [
+        "pr\u00e9c\u00e9dent"
+      ],
+      "replace": [
+        "remplacer"
+      ],
+      "replace all": [
+        "tout remplacer"
+      ],
+      "replaced $ matches": [
+        "$ correspondances remplac\u00e9es"
+      ],
+      "replaced match on line $": [
+        "a remplac\u00e9 la correspondance \u00e0 la ligne $"
+      ],
       "schema\u0004Git": [
         "Git"
+      ],
+      "schema\u0004Git Documentation": [
+        "Documentation Git"
+      ],
+      "schema\u0004Set Up Remotes": [
+        "Mise en place de d\u00e9p\u00f4ts distants"
       ],
       "schema\u0004jupyterlab-git settings.": [
         "Param\u00e8tres de jupyterlab-git."
@@ -4698,6 +4894,12 @@
       ],
       "settings\u0004Whether to trigger or not a push for each commit.": [
         "D\u00e9clencher ou non un push pour chaque commit."
+      ],
+      "to": [
+        "\u00e0"
+      ],
+      "unfold": [
+        "d\u00e9plier"
       ],
       "username": [
         "nom d'utilisateur"
@@ -4990,7 +5192,7 @@
         "Surlignage du code"
       ],
       "schema\u0004Code Hover": [
-        "Code Hover"
+        "Code Survol"
       ],
       "schema\u0004Code Jump": [
         "Saut de code"
